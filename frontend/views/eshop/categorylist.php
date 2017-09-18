@@ -1,0 +1,67 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: murod
+ * Date: 7/16/16
+ * Time: 10:26 AM
+ * To change this template use File | Settings | File Templates.
+ */
+use yii\helpers\Url;
+use yii\widgets\LinkPager;
+use \backend\models\Category;
+
+$name_cat = Category::findOne($id_cat);
+?>
+<?=$this->render('/layouts/_eshopmenu', ['layoutPath'=>$layoutPath, 'id'=>$id]);?>
+
+<div id="container">
+    <div class="clear"></div>
+    <div style="margin-top: 10px;"></div>
+    <h2 style="color: red; margin: 0; padding: 10px; float: left; text-transform: uppercase;"><?=$company['name']?>, <?=$name_cat->name;?></h2>
+    <p>
+        <span style="float: right; margin-top: 15px; margin-right: 5px; margin-bottom: 5px;"><a href="<?=Url::toRoute(['/eshop/category', 'id' => $id, 'id_cat' => $id_cat]);?>" style=""><img src="<?=$layoutPath?>/images/category/list1.png"></a></span>
+        <span style="float: right; margin-right: 15px; margin-top: 15px; margin-bottom: 5px;"><a href="<?=Url::toRoute(['/eshop/categorylist', 'id' => $id, 'id_cat' => $id_cat]);?>"><img src="<?=$layoutPath?>/images/category/list2.png"></a></span>
+        <span style="float: right; margin-top: 14px; margin-right: 10px; font-weight: bold;">Вид:</span>
+    </p>
+    <div class="clear"></div>
+    <div style="border-bottom: 1px solid red;"></div>
+    <!-- <p style="padding: 10px; background: #eee;">
+        <a href="#" class="a" style="margin-right: 40px;">Число заказов</a><a href="#" class="a" style="margin-right: 40px;">Цена</a>
+    </p> -->
+    <ul class="tovarpro-discount-container">
+        <? foreach ($goods as $key => $good):
+            $imageArr = json_decode($good->image, true);
+            if(is_array($imageArr)){
+                $image = '/images/goods/'.$good->id.'/'.$imageArr['min'];
+            }else{
+                $image = '/images/placeHolder.png';
+            }
+        ?>
+            <a href="<?=Url::toRoute(['/goods/view', 'id' => $good->id]);?>" class="a">
+                <div class="list-item">
+                    <li class="categorylist">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td valign="top" style="width: 50%">
+                                    <p class="category-list-p">
+                                        <img class="qualityMarkimglist" src="<?=$image;?>">
+                                    </p>
+                                </td>
+                                <td valign="top" style="width: 50%; text-align: left; padding: 5px;">
+                                    <p class="tovarpro-discount-p-p-list"><?=$good->name?></p>
+                                    <p class="tovarpro-discount-cost"><?=$good->cost?> сум</p>
+                                    <div class="tovarpro-discount-order-list">Заказать</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </div>
+            </a>
+        <? endforeach; ?>
+    </ul>
+    <div class="clear"></div>
+    <div style="background: #ddd; padding: 10px 0;">
+        <?= LinkPager::widget(['pagination' => $pagination]); ?>
+    </div>
+    <div class="clear"></div>
+</div>

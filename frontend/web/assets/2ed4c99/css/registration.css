@@ -1,0 +1,142 @@
+@font-face {
+	font-family: open-sans;
+	src: url('font/font.ttf');
+}
+
+body {
+	font-family: 'open-sans';
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+h3 {
+	margin-top: 0px
+}
+.contentreg {
+	max-width: 400px;
+	margin: 0 auto;
+	background: #484d53;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+input {
+	border: 1px solid #30ad64;
+	background: #484d53;
+	color: #fff;
+	padding: 10px 15px;
+	font-size: 14px;
+	border-radius: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+  width: 280px;
+}
+
+#login-form-rememberme {
+  width: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+button[type='submit'] {
+	background: #30ad64;
+	color: #fff;
+	border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  width: 310px;
+}
+
+button[type='submit']:hover {
+  background: #108b42;
+}
+
+button[type='submit']:focus {
+  outline: none;
+}
+
+.control-label {
+	display: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+a:hover {
+  color: red;
+}
+
+.help-block {
+  font-size: 80%;
+  color: red;
+}
+
+
+
+/* input[type="checkbox"],
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+  line-height: 15px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+label::before {
+  content: " ";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  z-index: -1;
+}
+input[type="radio"] + label::before {
+  border-radius: 18px;
+}
+Checked
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+  padding-left: 10px;
+  color: #fff;
+}
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #4CAF50;
+}
+Transition
+label,
+label::before {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+label {
+	z-index: 1;
+	width: auto;
+} */

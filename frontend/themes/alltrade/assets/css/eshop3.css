@@ -1,0 +1,491 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.largeactive {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.brandsdivimgbrand {
+    display: inline-block;
+    width: calc(10% - 4px);
+    padding: 3px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.tovarpro-largediscount {
+    display: inline-block;
+    background: #fff;
+    width: calc(25% - 4px);
+    padding: 5px;
+    box-sizing: border-box;
+    height: 275px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.tovarpro-discount-container {
+    background: #ddd;
+    padding: 5px 5px 2px 5px;
+    text-align: center;
+}
+
+.tovarpro-discount {
+    display: inline-block;
+    background: #fff;
+    width: calc(20% - 4px);
+    padding: 5px;
+    box-sizing: border-box;
+    height: 325px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.tovarpro-discount:hover, .tovarpro-largediscount:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.tovarpro-discount-cost {
+    font-weight: bold;
+}
+
+.tovarpro-discount-p {
+    width: 100%;
+    height: 200px;
+    line-height: 198px;
+    text-align: center;
+}
+
+.tovarpro-discount-p img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.tovarpro-discount-p-p {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tovarpro-discount-order {
+    text-align: center;
+    background: #3670b3;
+    padding: 10px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.tovarpro-discount-order-list {
+    text-align: center;
+    background: #3670b3;
+    padding: 10px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 150px;
+}
+
+.tovarpro-discount-p-p-list {
+    font-size: 120%;
+}
+
+.topslideronlineshop {
+    width: 100%;
+}
+
+.philipscontainer {
+    width: 100%;
+    height: 40px;
+    background: #3670b3;
+    z-index: 9999;
+}
+.philipsmenu {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.philipsmenu li {
+    float: left;
+    margin-right: 5px;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.philipsmenu li:hover {
+    background: green;
+}
+
+.philipsmenu li:hover .philipsmenusub {
+    display: block;
+}
+
+.philipsmenusub {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #3670b3;
+    left: 0;
+    top: 40px;
+    margin-right: 0px;
+    width: 215px;
+}
+
+.philipsmenusub li {
+    box-sizing: border-box;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+.aeshop p {
+    padding: 10px;
+}
+
+.philipsmenusub li:hover .philipsmenusub1,
+.philipsmenusub1 li:hover .philipsmenusub2,
+.philipsmenusub2 li:hover .philipsmenusub3 {
+    display: block;
+}
+
+.philipsmenusub1,
+.philipsmenusub2,
+.philipsmenusub3 {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: #3670b3;
+    width: 215px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.aeshop {
+    color: #fff;
+    text-decoration: none;
+}
+
+.aeshop:hover {
+    color: #fff;
+}
+
+.philipsmenu-800 {
+    background: #3670b3;
+    height: 55px;
+    overflow: hidden;
+    display: none;
+
+}
+
+.philips-sub-800 {
+    width: 25px;
+    padding: 15px 10px;
+    float: left;
+}
+
+.line-800 {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.philipsmenu-800-nameshop {
+    float: left;
+    width: calc(100% - 45px);
+    padding: 18px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.philipsmenu-800-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999999999;
+    transition: all 0.5s ease;
+}
+
+.philipsmenu-800-menu-menu {
+    max-width: 220px;
+    position: relative;
+    z-index: 9999999999;
+    background: #fff;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.philips-menu {
+    cursor: pointer;
+}
+
+.philips-menu:hover {
+    color: red ;
+}
+
+.philipsmenusub-800 {
+    display: none;
+}
+
+.double-srtelka {
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.double-srtelka-90 {
+    transform: rotate(90deg);
+}
+
+.philips-rating {
+    padding: 0 10px;
+}
+
+.philips-rating-name, .philips-rating-name-rat {
+    float: left;
+    margin-right: 15px;
+}
+
+.prodovespotpisatsiya {
+    float: left;
+    width: calc(100% - 230px);
+    display: none;
+}
+
+.prodovespotpisatsiya1, .prodovespotpisatsiya2 {
+    width: calc(50% - 20px);
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.philipsmenusub1, .philipsmenusub2, .philipsmenusub3 {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .tovarpro-discount {
+        width: calc(25% - 3px);
+    }
+    .tovarpro-largediscount {
+        width: calc(33.3% - 4px);
+    }
+}
+
+@media (max-width: 800px) {
+    .brandsdivimgbrand {
+        width: calc(20% - 4px);
+    }
+    .philipsmenusub {
+        display: block;
+    }
+    .submenu-name-plus::before {
+        content: "+";
+        padding: 0 5px;
+        background: #00CC66;
+        margin-right: 5px;
+        color: #fff;
+    }
+    .submenu-name-minus::before {
+        content: "-";
+        padding: 0 7px;
+        background: #FF0033;
+        margin-right: 5px;
+        color: #fff;
+    }
+    .aeshop {
+        color: #000;
+    }
+    .aeshop:hover {
+        color: red;
+    }
+    .aeshop p {
+        padding: 0;
+        margin-left: 10px;
+    }
+    .philipsmenusub01 li {
+        cursor: pointer;
+    }
+    .philipsmenusub01 {
+        margin-left: 10px;
+    }
+    .philipsmenusub11 {
+        display: none;
+        margin-left: 10px;
+    }
+    .philipsmenusub11 > li > a {
+        font-weight: bold;
+        border-bottom: 1px solid #ddd;
+    }
+    .philipsmenusub31 {
+        padding-left: 10px;
+    }
+    .philipsmenu-800 {
+        display: block;
+    }
+    .philipsmenu {
+        display: none;
+    }
+    .menucategoryleft {
+        display: none;
+    }
+    .philipscontainer {
+        height: 55px;
+    }
+    .leftmenu-inner-bg1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .philips-rating-name {
+        display: none;
+    }
+    .prodovespotpisatsiya {
+        display: block;
+    }
+}
+
+@media (max-width: 700px) {
+    .tovarpro-discount {
+        width: calc(33.3% - 3px);
+    }
+}
+
+@media (max-width: 550px) {
+    .tovarpro-largediscount {
+        width: calc(50% - 4px);
+    }
+}
+
+@media (max-width: 500px) {
+    .tovarpro-discount {
+        width: calc(50% - 3px);
+        height: 310px;
+    }
+    .tovarpro-discount-order, .tovarpro-discount-order-list {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .brandsdivimgbrand {
+        width: calc(33.3% - 4px);
+    }
+}
+
+@media (max-width: 350px) {
+    .tovarpro-largediscount {
+        width: calc(100% - 4px);
+    }
+}
+
+@media (max-width: 300px) {
+    .tovarpro-discount {
+        width: calc(100% - 3px);
+    }
+}
+
+@media (max-width: 525px) {
+    .prodovespotpisatsiya {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+.tovarpro {
+    position: relative;
+    width: 19%;
+    height: 325px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.tovarpro:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 800px) {
+    .tovarpro {
+        width: 32%;
+        height: 300px;
+    }
+}
+@media (max-width: 400px) {
+    .tovarpro {
+        width: 48%;
+        height: 290px;
+    }
+}
+
+.philipsimg {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.proproduct {
+    /*margin-left: 25px;*/
+}
+
+@media (max-width: 800px) {
+    .proproduct {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .proproduct {
+        margin-left: 0px;
+    }
+}
+
+.philips-sub {
+    float: right;
+    margin-left: 10px;
+}
+.philips-sub .line {
+    width: 15px;
+    height: 1px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.philips-sub .line:last-child {
+    margin-bottom: 0px;
+}
+
+.philips-rating {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.pro-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url('/images/pro-slide-bg.png') no-repeat center center;
+}

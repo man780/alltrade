@@ -1,0 +1,23 @@
+@font-face {
+	font-family: open-sans;
+	src: url('font/font.ttf');
+}
+
+body {
+	font-family: 'open-sans';
+	font-size: 14px;
+	margin: 0;
+}
+
+.a {
+	color: #000;
+	text-decoration: none;
+}
+
+.a:hover {
+	color: #ff0000;
+}
+
+.help-help p {
+	line-height: 30px;
+}

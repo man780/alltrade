@@ -1,0 +1,566 @@
+.profile-act {
+    color: red;
+}
+#content1 {
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+}
+.profile-ads-name21, .profile-ads-name1, .profile-ads-name2, .profile-ads-name3, .profile-ads-name4, .profile-ads-name5 {
+    float: left;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+.profile-ads-name1 {
+    width: 13%;
+}
+
+.profile-ads-name2, .profile-ads-name21 {
+    width: 59%;
+}
+
+.profile-ads-name21 {
+    color: #fff;
+}
+
+.profile-ads-name3 {
+    width: 15%;
+}
+
+.profile-ads-name4 {
+    width: 13%;
+}
+
+.profile-ads-name5 {
+    color: #fff;
+}
+
+.profile-ads-name2-p1 {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+    line-height: 148px;
+    background: #eee;
+    text-align: center;
+}
+
+.profile-ads-name2-img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.profile-ads-name2-div2 {
+    font-size: 80%;
+    margin-top: 59px;
+    white-space: nowrap;
+}
+
+.profile-ads-name2-view {
+    background: url('../images/ads/ads-view.png') left 0 no-repeat;
+    padding-left: 20px;
+    padding-right: 2px;
+    border-right: 1px solid #ddd;
+    margin-right: 5px;
+}
+
+.profile-ads-name2-star {
+    background: url('../images/ads/ads-star.png') left 0 no-repeat;
+    padding-left: 20px;
+}
+
+.profile-ads-name2-div3 {
+    font-size: 80%;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+
+.aa {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.aa:hover {
+    color: red !important;
+}
+
+.login1 {
+    color: #fff;
+}
+
+.topheadermenu-800-img {
+    width: 25px !important;
+    margin-left: 0 !important;
+}
+
+.login-img {
+    width: 25px !important;
+    margin-left: 0 !important;
+}
+
+.moya-korzina1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/2-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.moi-obyavlenie1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/3-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+
+.izb-obyavleniya1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/4-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.lyubimie-mag1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/5-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.lyubimie-usl1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/6-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.moi-soobshenie1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/7-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.moi-jelaniya1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/8-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+.nastroyki1 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: url('../images/login/9-2.png') left center no-repeat;
+    font-size: 14px;
+}
+
+
+.menu-categories {
+    padding: 10px 0;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.profile-ads-name2-p3 {
+    display: none;
+}
+
+.profile-a-p00 {
+    background: url('../images/ads/1/message.png') 2px 0 no-repeat;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 90%;
+    text-decoration: none;
+    color: #0098d0;
+}
+
+.profile-a-p00:hover {
+    color: #fff;
+    background: url('../images/ads/1/message-fff.png') 2px 0 no-repeat;
+    padding-left: 20px;
+    background-color: #0098d0;
+}
+
+.profile-a-p1 {
+    background: url('../images/ads/1/eye.png') 2px 0 no-repeat;
+    padding-left: 20px;
+}
+
+.profile-a-p2 {
+    background: url('../images/ads/1/contract.png') 2px 0 no-repeat;
+    padding-left: 20px;
+}
+
+.profile-a-p1, .profile-a-p2{
+    margin-right: 20px;
+    font-size: 90%;
+    text-decoration: none;
+    color: #0098d0;
+}
+
+.profile-a-p1:hover {
+    color: #fff;
+    background: url('../images/ads/1/eye-fff.png') 2px 0 no-repeat;
+    padding-left: 20px;
+    background-color: #0098d0;
+}
+
+.profile-a-p2:hover {
+    color: #fff;
+    background: url('../images/ads/1/contract-fff.png') 2px 0 no-repeat;
+    padding-left: 20px;
+    background-color: #0098d0;
+}
+
+.profile-a-u {
+    font-size: 90%;
+    text-decoration: none;
+    color: red;
+    background: url('../images/ads/1/close.png') 2px 2px no-repeat;
+    padding-left: 20px;
+}
+
+.profile-a-u:hover {
+    color: #fff;
+    background: url('../images/ads/1/close-fff.png') 2px 2px no-repeat;
+    padding-left: 20px;
+    background-color: red;
+}
+
+.profile-a-p0 {
+    margin-right: 20px;
+    font-size: 90%;
+    text-decoration: none;
+    color: #4CAF50;
+    background: url('../images/ads/1/true.png') 2px 0 no-repeat;
+    padding-left: 20px;
+}
+
+.profile-a-p0:hover {
+    color: #fff;
+    background: url('../images/ads/1/true-fff.png') 2px 0 no-repeat;
+    padding-left: 20px;
+    background-color: #4CAF50;
+}
+
+.profile-active {
+    /* display: none; */
+}
+
+.profile-inactive {
+    display: none;
+}
+
+.login-up {
+    cursor: pointer;
+    background: url('../images/login/arrow-up.png') right center no-repeat;
+}
+
+.login-down {
+    cursor: pointer;
+    background: url('../images/login/arrow-down.png') right center no-repeat;
+}
+
+.profile-ad {
+    /* display: none; */
+}
+
+.profile-inbox {
+    /* display: none; */
+}
+
+.profile-outbox {
+    display: none;
+}
+
+.profile-message {
+    /* display: none; */
+}
+
+.profile-settings {
+    /* display: none; */
+}
+
+.profile-menu-ads {
+    cursor: pointer;
+}
+
+.profile-menu-ads:hover {
+    color: red;
+}
+
+.profile-menu-message {
+    cursor: pointer;
+}
+
+.profile-menu-message:hover {
+    color: red;
+}
+
+.profile-menu-setting {
+    cursor: pointer;
+}
+
+.profile-menu-setting:hover {
+    color: red;
+}
+
+.profile-active-h1:hover {
+    color: red;
+}
+
+.profile-inactive-h1:hover {
+    color: red;
+}
+
+.profile-these-h1:hover {
+    color: red;
+}
+
+.profile-sent-h1:hover {
+    color: red;
+}
+
+.topheadermenu-avto-800, #topheadermenu-800 {
+    background: url('../images/login/bg.jpg') center center no-repeat;
+}
+
+.menu-categories-nazad {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-categories-nazad:after,
+.menu-categories-nazad:before {
+    right: 110%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.menu-categories-nazad:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #ffffff;
+    border-width: 3px;
+    margin-top: -3px;
+}
+
+.menu-categories-nazad:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: red;
+    border-width: 5px;
+    margin-top: -5px;
+}
+
+
+p.login:hover + .profile-submenu {
+    display: block;
+}
+
+.profile-submenu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: -35px;
+    z-index: 1001;
+    font-size: 80%
+}
+
+.profile-submenu li {
+    padding: 5px 0;
+}
+
+.profile-submenu:hover {
+    display: block;
+}
+
+.profile-ads-container-800 {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .profile-menu-sub {
+        text-align: center;
+    }
+    .profile-ads-name2-div2, .profile-ads-name2-div3 {
+        margin-top: 10px;
+    }
+    .profile-ads-name2-p1 {
+        float: none;
+        margin: 0 auto;
+    }
+    .profile-a-p00 {
+        border: 2px solid #0098d0;
+        padding: 5px 10px 5px 25px;
+        border-radius: 20px;
+        background: url('../images/ads/1/message.png') 5px 5px no-repeat;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+    .profile-a-p00:hover {
+        color: #fff;
+        background: url('../images/ads/1/message-fff.png') 5px 5px no-repeat;
+        padding-left: 25px;
+        background-color: #0098d0;
+    }
+    .profile-a-p1 {
+        background: url('../images/ads/1/eye.png') 5px 5px no-repeat;
+        border: 2px solid #0098d0;
+        padding: 5px 10px 5px 25px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+    .profile-a-p1:hover {
+        color: #fff;
+        background: url('../images/ads/1/eye-fff.png') 5px 5px no-repeat;
+        padding-left: 25px;
+        background-color: #0098d0;
+    }
+    .profile-a-p2 {
+        background: url('../images/ads/1/contract.png') 5px 5px no-repeat;
+        border: 2px solid #0098d0;
+        padding: 5px 10px 5px 25px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+    .profile-a-p2:hover {
+        color: #fff;
+        background: url('../images/ads/1/contract-fff.png') 5px 5px no-repeat;
+        padding-left: 25px;
+        background-color: #0098d0;
+    }
+
+    .profile-a-u {
+        border: 2px solid red;
+        padding: 5px 10px 5px 25px;
+        border-radius: 20px;
+        background: url('../images/ads/1/close.png') 5px 7px no-repeat;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+
+    .profile-a-u:hover {
+        color: #fff;
+        background: url('../images/ads/1/close-fff.png') 5px 7px no-repeat;
+        padding-left: 25px;
+        background-color: red;
+    }
+
+    .profile-a-p0 {
+        border: 2px solid #4CAF50;
+        padding: 5px 10px 5px 25px;
+        border-radius: 20px;
+        background: url('../images/ads/1/true.png') 5px 5px no-repeat;
+        transition: all 0.5s ease;
+        margin: 0;
+    }
+
+    .profile-a-p0:hover {
+        color: #fff;
+        background: url('../images/ads/1/true-fff.png') 5px 5px no-repeat;
+         padding-left: 25px;
+        background-color: #4CAF50;
+    }
+
+    .profile-ads-name2-div1 p {
+        line-height: 35px;
+        display: inline-block;
+    }
+
+    .profile-ads-name2-div1 {
+        text-align: center;
+    }
+
+    .profile-ads-name2-p3 {
+        display: block;
+    }
+    .profile-ads-name4 {
+        display: none;
+    }
+    .profile-ads-container1 {
+        display: none;
+    }
+    .profile-ads-name2-p1 {
+        position: relative;
+    }
+    .profile-ads-container-800 {
+        display: block;
+        line-height: normal;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        text-align: left;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        color: #fff;
+        font-size: 80%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .profile-ads-name2-p21 {
+        padding-bottom: 3px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 3px;
+    }
+    .profile-ads-name1, .profile-ads-name3, .profile-ads-name2-p2 {
+        display: none !important;
+    }
+    .profile-ads-name2 {
+        width: 100%;
+    }
+    .profile-submenu {
+        position: relative;
+        background: none;
+        font-size: 95%;
+        margin-left: 0;
+        border: none;
+        padding: 10px 0;
+        padding-bottom: 0;
+    }
+    .menu-categories {
+        display: block;
+    }
+    .leftmenu-inner {
+        max-width: 270px;
+        position: relative;
+        z-index: 9999999999;
+        background: #fff;
+        height: 100%;
+        overflow-y: auto;
+    }
+    .leftmenu-inner-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+@media (max-width: 350px) {
+    .profile-ads-name2-div2, .profile-ads-name2-div3 {
+        white-space: normal;
+    }
+    .profile-ads-name2-star, .profile-ads-name2-view {
+        white-space: nowrap;
+    }
+
+}

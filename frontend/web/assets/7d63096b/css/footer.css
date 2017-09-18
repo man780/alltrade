@@ -1,0 +1,172 @@
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #000;
+}
+a:hover {
+	color: #ff0000;
+}
+
+.footer-menu-gid ul li {
+	float: left;
+	background: #eee;
+	width: 199px;
+	height: 80px;
+	line-height: 80px;
+	border-right: 1px solid #fff;
+}
+
+.footer-menu-gid ul li span {
+	padding: 10px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 50px;
+}
+
+a .gid-cart {
+	background: url('../images/footer-menu-gid/1.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-cart {
+	background: url('../images/footer-menu-gid/1-1.png') 10px center no-repeat;
+}
+
+a .gid-search {
+	background: url('../images/footer-menu-gid/2.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-search {
+	background: url('../images/footer-menu-gid/2-1.png') 10px center no-repeat;
+}
+
+a .gid-payment {
+	background: url('../images/footer-menu-gid/3.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-payment {
+	background: url('../images/footer-menu-gid/3-1.png') 10px center no-repeat;
+}
+
+a .gid-delivery {
+	background: url('../images/footer-menu-gid/4.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-delivery {
+	background: url('../images/footer-menu-gid/4-1.png') 10px center no-repeat;
+}
+
+a .gid-rating {
+	background: url('../images/footer-menu-gid/5.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-rating {
+	background: url('../images/footer-menu-gid/5-1.png') 10px center no-repeat;
+}
+
+a .gid-protection {
+	background: url('../images/footer-menu-gid/6.png') 10px center no-repeat;
+	transition: all 0.5s ease;
+}
+
+a:hover .gid-protection {
+	background: url('../images/footer-menu-gid/6-1.png') 10px center no-repeat;
+}
+
+.footer-gid-h1 {
+	padding: 0 40px;
+	background: #f1f1f1;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.footer-gid-title {
+	vertical-align: middle;
+	float: left;
+	font-size: 150%;
+}
+
+.footer-gid-detail {
+	vertical-align: middle;
+	color: #4E87D6;
+	padding-right: 30px;
+	float: right;
+}
+
+.down {
+	background: url('../images/footer-menu-gid/down-1.png') right center no-repeat;
+}
+
+.up {
+	background: url('../images/footer-menu-gid/up-1.png') right center no-repeat;
+}
+
+.footer-gid-h1:hover .down {
+	background: url('../images/footer-menu-gid/down-2.png') right center no-repeat;
+}
+
+.footer-gid-h1:hover .up {
+	background: url('../images/footer-menu-gid/up-2.png') right center no-repeat;
+}
+
+.footer-gid-h1:hover .footer-gid-detail {
+	color: red;
+}
+
+.footer-gid-h1, .footer-gid-council {
+	margin-bottom: 20px;
+}
+
+.footer-god-content {
+	display: none;
+	padding: 10px;
+	padding-left: 100px;
+	font-size: 120%;
+}
+
+.footer-gid-council {
+	position: relative;
+	padding: 20px;
+	border: 1px solid #4E87D6;
+	border-radius: 10px;
+}
+
+.footer-god-content p {
+	line-height: 40px;
+}
+
+.footer-gid-correct {
+	padding-left: 30px;
+	background: url('../images/footer-menu-gid/correct.png') left top no-repeat;
+	font-size: 120%;
+	padding-bottom: 15px;
+}
+
+.footer-gid-info {
+	position: absolute;
+	font-size: 140%;
+	background: url('../images/footer-menu-gid/info.png') 10px center no-repeat;
+	padding: 0 20px;
+	padding-left: 40px;
+	color: #555;
+	background-color: #fff;
+	top: -15px;
+}
+
+@media (max-width: 800px) {
+	.footer-god-content {
+		padding: 10px;
+	}
+}

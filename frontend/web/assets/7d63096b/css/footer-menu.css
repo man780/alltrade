@@ -1,0 +1,76 @@
+.bargain-top {
+	background: url('../images/footer-menu/bg.jpg') center center no-repeat;
+	width: calc(100% - 40px);
+	min-height: 600px;
+	padding: 20px;
+}
+
+.bargain-top h1 {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.bargain-top p {
+	text-align: center;
+	font-size: 140%;
+}
+
+.bargain-div-1 img,
+.bargain-div-2 img,
+.bargain-div-3 img,
+.bargain-div-4 img {
+	display: block;
+	width: 33.3%;
+	float: left;
+}
+
+.bargain-div-1,
+.bargain-div-2,
+.bargain-div-3,
+.bargain-div-4 {
+	width: 50%;
+	float: left;
+	color: #fff;
+}
+
+.bargain-div-1 {
+	background: #F4BB35;
+}
+
+.bargain-div-2 {
+	background: #45A5E1;
+}
+
+.bargain-div-3 {
+	background: #F57970;
+}
+
+.bargain-div-4 {
+	background: #8660CC;
+}
+
+.bargain-div-1 h4,
+.bargain-div-2 h4,
+.bargain-div-3 h4,
+.bargain-div-4 h4 {
+	margin: 15px 0 15px 0;
+	font-size: 150%;
+}
+
+.bargain-div-1 p,
+.bargain-div-2 p,
+.bargain-div-3 p,
+.bargain-div-4 p {
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+@media (max-width: 850px) {
+	.bargain-div-1,
+	.bargain-div-2,
+	.bargain-div-3,
+	.bargain-div-4 {
+		width: 100%;
+	}
+}

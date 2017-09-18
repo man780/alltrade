@@ -1,0 +1,102 @@
+.topslideronlineshop {
+	width: 100%;
+}
+
+.philipscontainer {
+	width: 100%;
+	height: 40px;
+	background: #3670b3;
+	z-index: 9999;
+}
+.philipsmenu {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.philipsmenu li {
+	float: left;
+	margin-right: 10px;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px;
+	position: relative;
+}
+
+.philipsmenu li:hover {
+	background: green;
+}
+
+.philipsmenu li:hover .philipsmenusub {
+	display: block;
+}
+
+.philipsmenusub {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	background: #3670b3;
+	left: 0;
+	top: 40px;
+	margin-right: 0px;
+	width: 200px;
+}
+
+.fixed{
+	position: fixed;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+@media (max-width: 800px) {
+	.philipsmenu li {
+		font-size: 13px;
+	}
+	.menucategoryleft {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.philipscontainer {
+		height: 80px;
+	}
+	.philipsmenu li {
+		margin-right: 0px;
+	}
+}
+
+.tovarphilips {
+	position: relative;
+	width: 24%;
+	height: 375px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.tovarphilips:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 800px) {
+	.tovarphilips {
+		width: 32%;
+		height: 300px;
+	}
+}
+@media (max-width: 400px) {
+	.tovarphilips {
+		width: 48%;
+		height: 290px;
+	}
+}
+
+.philipsimg {
+	width: 90%;
+	margin-top: 10px;
+}
